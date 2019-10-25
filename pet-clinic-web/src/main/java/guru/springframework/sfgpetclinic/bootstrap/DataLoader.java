@@ -27,9 +27,9 @@ public class DataLoader implements CommandLineRunner {
         markSnow.setLastName("Snow");
 
         Owner lanaLang = new Owner();
-        markSnow.setId(2L);
-        markSnow.setFirstName("Lana");
-        markSnow.setLastName("Lang");
+        lanaLang.setId(2L);
+        lanaLang.setFirstName("Lana");
+        lanaLang.setLastName("Lang");
 
         ownerService.save(markSnow);
         ownerService.save(lanaLang);
