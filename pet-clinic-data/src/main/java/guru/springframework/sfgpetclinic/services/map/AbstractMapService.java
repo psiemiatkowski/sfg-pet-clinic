@@ -36,7 +36,7 @@ public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> 
         map.entrySet().removeIf(entry -> entry.getValue().equals(object));
     }
 
-//Original method by John Thompson
+//    Original method by John Thompson
 //    private Long getNextId() {
 //
 //        Long nextId = null;
